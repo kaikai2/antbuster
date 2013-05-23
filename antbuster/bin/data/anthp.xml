@@ -1,0 +1,43 @@
+<CurvedAni length="101" numDataSets="7" numInterpolaters="5" numAnimElements="2">
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- image data -->
+        <Data time="0" value="data/ant.png;3,34,6,54" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- image data -->
+        <Data time="0" value="data/ant.png;7,34,10,54" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="2"> <!-- scale data -->
+        <Data time="0" value="1,0" />
+        <Data time="100" value="1,1" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="1"> <!-- pos data -->
+        <Data time="0" value="-15.5,0" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float3" numData="3"> <!-- color data -->
+        <Data time="0" value="1,0,0" />
+        <Data time="50" value=".7,.1,.7" />
+        <Data time="100" value=".2,.2,1" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float3" numData="1"> <!-- color data -->
+        <Data time="0" value="0,0,0" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="2"> <!-- pos data -->
+        <Data time="0" value="-15.5,10" />
+        <Data time="100" value="-15.5,0" />
+    </DataSet>
+    <Interpolater name="CI_HGE_StepImage" />
+    <Interpolater name="CI_HGE_LinearFloat2" />
+    <Interpolater name="CI_HGE_StepFloat2" />
+    <Interpolater name="CI_HGE_LinearFloat3" />
+    <Interpolater name="CI_HGE_StepFloat3" />
+    <AnimElement numLocus="4"> <!-- hp bar -->
+        <Locus StatusId="0" DataSetId="1" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="6" InterpolaterId="1" /> <!-- pos -->
+        <Locus StatusId="2" DataSetId="2" InterpolaterId="1" /> <!-- scale -->
+        <Locus StatusId="5" DataSetId="4" InterpolaterId="3" /> <!-- color -->
+    </AnimElement>
+    <AnimElement numLocus="3"> <!-- hp border -->
+        <Locus StatusId="0" DataSetId="0" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="3" InterpolaterId="2" /> <!-- pos -->
+        <Locus StatusId="5" DataSetId="5" InterpolaterId="4" /> <!-- color -->
+    </AnimElement>
+</CurvedAni>

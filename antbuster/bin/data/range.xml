@@ -1,0 +1,15 @@
+<CurvedAni length="200" numDataSets="2" numInterpolaters="2" numAnimElements="1">
+    <DataSet name="CDS_HGE_Image" numData="1">
+        <Data time="0" value="data/ui.png;154,66,256,168" /> <!-- NOTE: the original image is 100*100 with radius 50pix -->
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="2">
+        <Data time="0" value="0,0" />
+        <Data time="200" value="4,4" /> <!-- so 4*4 of 50pix will be 200pix radius -->
+    </DataSet>
+    <Interpolater name="CI_HGE_StepImage" />
+    <Interpolater name="CI_HGE_LinearFloat2" />
+    <AnimElement numLocus="2">
+        <Locus StatusId="0" DataSetId="0" InterpolaterId="0" />
+        <Locus StatusId="2" DataSetId="1" InterpolaterId="1" />
+    </AnimElement>
+</CurvedAni>

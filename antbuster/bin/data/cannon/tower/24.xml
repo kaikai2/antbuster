@@ -1,0 +1,16 @@
+<CurvedAni length="20" numDataSets="2" numInterpolaters="2" numAnimElements="1">
+	<DataSet name="CDS_HGE_Image" numData="1">
+		<Data time="0" value="data/cannon/cannon.png;0,300,40,340" />
+	</DataSet>
+	<DataSet name="CDS_HGE_Float2" numData="3">
+		<Data time="0" value="0,0" />
+		<Data time="5" value="0,5" />
+		<Data time="20" value="0,0" />
+	</DataSet>
+	<Interpolater name="CI_HGE_StepImage" />
+	<Interpolater name="CI_HGE_LinearFloat2" />
+	<AnimElement numLocus="2">
+		<Locus StatusId="0" DataSetId="0" InterpolaterId="0" />
+		<Locus StatusId="1" DataSetId="1" InterpolaterId="1" />
+	</AnimElement>
+</CurvedAni>

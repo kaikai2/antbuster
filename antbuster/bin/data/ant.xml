@@ -1,0 +1,90 @@
+<CurvedAni length="20" numDataSets="13" numInterpolaters="2" numAnimElements="7">
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- left front leg -->
+        <Data time="0" value="data/ant.png;66,4,73,9" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- left middle leg -->
+        <Data time="0" value="data/ant.png;64,11,73,15" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- left rear leg -->
+        <Data time="0" value="data/ant.png;66,17,73,25" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- right front leg -->
+        <Data time="0" value="data/ant.png;83,4,90,9" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- right middle leg -->
+        <Data time="0" value="data/ant.png;83,11,92,15" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- right rear leg -->
+        <Data time="0" value="data/ant.png;83,17,90,25" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Image" numData="1"> <!-- body -->
+        <Data time="0" value="data/ant.png;75,4,81,21" />
+    </DataSet>
+
+	<DataSet name="CDS_HGE_Float2" numData="4"> <!-- left front leg -->
+        <Data time="0" value="-5,-5" />
+        <Data time="5" value="-5,-6" />
+        <Data time="15" value="-5,-4" />
+        <Data time="20" value="-5,-5" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="4"> <!-- left middle leg -->
+        <Data time="0" value="-5,0" />
+        <Data time="5" value="-5,1" />
+        <Data time="15" value="-5,-1" />
+        <Data time="20" value="-5,0" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="4"> <!-- left rear leg -->
+        <Data time="0" value="-5,5" />
+        <Data time="5" value="-5,4" />
+        <Data time="15" value="-5,6" />
+        <Data time="20" value="-5,5" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="4"> <!-- right front leg -->
+        <Data time="0" value="5,-5" />
+        <Data time="5" value="5,-4" />
+        <Data time="15" value="5,-6" />
+        <Data time="20" value="5,-5" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="4"> <!-- right middle leg -->
+        <Data time="0" value="5,0" />
+        <Data time="5" value="5,-1" />
+        <Data time="15" value="5,1" />
+        <Data time="20" value="5,0" />
+    </DataSet>
+    <DataSet name="CDS_HGE_Float2" numData="4"> <!-- right rear leg -->
+        <Data time="0" value="5,5" />
+        <Data time="5" value="5,6" />
+        <Data time="15" value="5,4" />
+        <Data time="20" value="5,5" />
+    </DataSet>
+
+    <Interpolater name="CI_HGE_StepImage" />
+    <Interpolater name="CI_HGE_LinearFloat2" />
+    <AnimElement numLocus="2"> <!-- left front leg -->
+        <Locus StatusId="0" DataSetId="0" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="7" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="2"> <!-- left middle leg -->
+        <Locus StatusId="0" DataSetId="1" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="8" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="2"> <!-- left rear leg -->
+        <Locus StatusId="0" DataSetId="2" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="9" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="2"> <!-- right front leg -->
+        <Locus StatusId="0" DataSetId="3" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="10" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="2"> <!-- right middle leg -->
+        <Locus StatusId="0" DataSetId="4" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="11" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="2"> <!-- right rear leg -->
+        <Locus StatusId="0" DataSetId="5" InterpolaterId="0" />
+        <Locus StatusId="1" DataSetId="12" InterpolaterId="1" />
+    </AnimElement>
+    <AnimElement numLocus="1"> <!-- body -->
+        <Locus StatusId="0" DataSetId="6" InterpolaterId="0" />
+    </AnimElement>
+</CurvedAni>

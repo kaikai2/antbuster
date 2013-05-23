@@ -1,0 +1,17 @@
+<CurvedAni length="9" numDataSets="1" numInterpolaters="1" numAnimElements="1">
+    <DataSet name="CDS_HGE_Image" numData="9">
+        <Data time="0" value="data/cake.png;0,0,0,0" />
+        <Data time="1" value="data/cake.png;180,60,240,120" />
+        <Data time="2" value="data/cake.png;120,60,180,120" />
+        <Data time="3" value="data/cake.png;60,60,120,120" />
+        <Data time="4" value="data/cake.png;0,60,60,120" />
+        <Data time="5" value="data/cake.png;180,0,240,60" />
+        <Data time="6" value="data/cake.png;120,0,180,60" />
+        <Data time="7" value="data/cake.png;60,0,120,60" />
+        <Data time="8" value="data/cake.png;0,0,60,60" />
+    </DataSet>
+    <Interpolater name="CI_HGE_StepImage" />
+    <AnimElement numLocus="1">
+        <Locus StatusId="0" DataSetId="0" InterpolaterId="0" />
+    </AnimElement>
+</CurvedAni>
